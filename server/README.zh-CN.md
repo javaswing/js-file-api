@@ -1,29 +1,7 @@
-# my_midway_project
+# 文件上传与下载server端代码
 
-## 快速入门
+## 下载
 
-<!-- 在此次添加使用文档 -->
-
-如需进一步了解，参见 [midway 文档][midway]。
-
-### 本地开发
-
-```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
-```
-
-### 部署
-
-```bash
-$ npm start
-```
-
-### 内置指令
-
-- 使用 `npm run lint` 来做代码风格检查。
-- 使用 `npm test` 来执行单元测试。
-
-
-[midway]: https://midwayjs.org
+1. 普通流式下载
+2. 后端返回oss地址
+3. 分片下载

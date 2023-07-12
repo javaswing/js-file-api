@@ -1,4 +1,6 @@
 import { Configuration, App } from '@midwayjs/core';
+import * as oss from '@midwayjs/oss';
+import * as upload from '@midwayjs/upload';
 import * as koa from '@midwayjs/koa';
 import * as validate from '@midwayjs/validate';
 import * as info from '@midwayjs/info';
@@ -15,6 +17,8 @@ import { ReportMiddleware } from './middleware/report.middleware';
       component: info,
       enabledEnvironment: ['local'],
     },
+    oss,
+    upload
   ],
   importConfigs: [join(__dirname, './config')],
 })
